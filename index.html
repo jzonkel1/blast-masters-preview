@@ -798,7 +798,7 @@ function initMedia(root){
   });
 }
 /* start at 80% so you mostly see the BEFORE; on phones line the handle up under the middle of the AFTER label */
-var QS=new URLSearchParams(location.search),HP=+(QS.get('hp')||80),GY=QS.get('gy');
+var QS=new URLSearchParams(location.search),HP=+(QS.get('hp')||72),GY=QS.get('gy')||'64';
 function defaultP(el){
   if(window.innerWidth<=640){var t=el.querySelector('.tag.a'),r=el.getBoundingClientRect(),q=t.getBoundingClientRect();if(r.width)return((q.left+q.width/2)-r.left)/r.width*100}
   return el.closest('.hero')?HP:80;
