@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Blast Masters | Pool Tile Cleaning &amp; Calcium Removal Across South Texas</title>
+<meta name="description" content="Blast Masters removes white calcium from pool tile, rock, stone and water features across South Texas, from Victoria to Laredo to McAllen. Veteran-owned. 5.0 on Google. Free estimates.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0c2a4e">
+<link rel="icon" href="photos/logo-360.png">
+<link rel="preload" href="fonts/kanit-800i.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="photos/hero-before.jpg" as="image">
+<style>
+@font-face{font-family:"Kanit";src:url(fonts/kanit-800i.woff2) format("woff2");font-weight:800;font-style:italic;font-display:block}
+@font-face{font-family:"Figtree";src:url(fonts/figtree.woff2) format("woff2");font-weight:300 900;font-display:block}
+:root{
+  --deep:#061a33;--navy:#0c2a4e;--royal:#0070b0;--sky:#2bbcf0;--sky-2:#5ccdf5;--foam:#c8eefc;
+  --paper:#f6f9fc;--calcium:#eaf2f8;--ink:#0c1f38;--muted:#4c5d76;--line:#d7e1ec;
+  --head:"Kanit","Arial Black",Impact,sans-serif;--body:"Figtree",system-ui,sans-serif;
+  --gut:clamp(20px,5vw,64px);--max:1240px;--hh:84px;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--hh) + 12px)}
+body{font:400 17px/1.6 var(--body);color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body.menu-open{overflow:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+.nw{white-space:nowrap}
+h1,h2,h3{font-family:var(--head);font-weight:800;font-style:italic;line-height:.98;text-transform:uppercase;text-wrap:balance;letter-spacing:-.005em}
+h2{font-size:clamp(38px,5.4vw,66px)}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gut)}
+.eyebrow{font:700 13px/1.3 var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--royal)}
+.lede{font-size:clamp(18px,1.6vw,20px);color:var(--muted);max-width:60ch;text-wrap:pretty}
+section{padding:clamp(72px,9vw,120px) 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 28px;border-radius:8px;font:700 18px/1 var(--body);text-decoration:none;border:0;cursor:pointer;white-space:nowrap;transition:background .15s,transform .15s}
+.btn:active{transform:translateY(1px)}
+.btn-sky{background:var(--sky);color:var(--deep)}.btn-sky:hover{background:var(--sky-2)}
+.btn-navy{background:var(--navy);color:#fff}.btn-navy:hover{background:var(--royal)}
+.btn-line{background:rgba(6,26,51,.45);color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.8)}.btn-line:hover{background:rgba(6,26,51,.75)}
+.btn-ghost{background:#fff;color:var(--navy);box-shadow:inset 0 0 0 2px var(--navy)}.btn-ghost:hover{background:var(--calcium)}
+.btn svg{width:20px;height:20px;flex:none}
+.strip{height:24px;background:
+  repeating-linear-gradient(90deg,transparent 0 26px,rgba(255,255,255,.6) 26px 28px),
+  repeating-linear-gradient(90deg,#0c2a4e 0 28px,#0070b0 28px 56px,#0a3d70 56px 84px,#2bbcf0 84px 112px)}
+
+/* ===== header ===== */
+.site{position:sticky;top:0;z-index:40;background:#fff;border-bottom:1px solid var(--line);height:var(--hh)}
+.site .wrap{height:100%;display:flex;align-items:center;gap:22px}
+.brand{position:relative;align-self:flex-start;flex:none;display:block;background:#fff;padding:6px 14px 8px;border-radius:0 0 16px 16px;margin-bottom:-34px;z-index:2;border:1px solid var(--line);border-top:0}
+.brand img{height:106px;width:auto;transition:height .2s}
+.brand{transition:margin .2s,padding .2s}
+@media (min-width:1025px){.site.shrink .brand{margin-bottom:0;padding:4px 10px;align-self:center;border-color:transparent}.site.shrink .brand img{height:68px}}
+.nav{display:flex;align-items:center;gap:2px;list-style:none;padding:0;margin-left:auto}
+.nav>li{position:relative}
+.nav>li>a,.nav>li>button{display:flex;align-items:center;gap:6px;padding:10px 13px;font:600 16px/1 var(--body);color:var(--navy);text-decoration:none;border-radius:6px}
+.nav>li>a:hover,.nav>li>button:hover,.nav>li:focus-within>button{background:var(--calcium)}
+.nav .car{width:10px;height:10px;transition:transform .2s}
+.nav li.dd:hover .car,.nav li.dd:focus-within .car{transform:rotate(180deg)}
+.panel{position:absolute;top:calc(100% + 6px);left:0;min-width:290px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px;box-shadow:0 18px 40px -18px rgba(6,26,51,.35);opacity:0;visibility:hidden;transform:translateY(6px);transition:.18s}
+.panel::before{content:"";position:absolute;inset:-10px 0 auto 0;height:10px}
+.nav li.dd:hover .panel,.nav li.dd:focus-within .panel{opacity:1;visibility:visible;transform:none}
+.panel .cnt{display:flex;justify-content:space-between;align-items:baseline;font:700 12px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--royal);padding:4px 8px 10px;border-bottom:1px solid var(--line);margin-bottom:6px}
+.panel .cnt a{letter-spacing:.02em;text-transform:none;font-weight:600;font-size:13.5px;color:var(--navy)}
+.panel ul{list-style:none;padding:0}
+.panel.cols2 ul{columns:2;column-gap:10px;min-width:390px}
+.panel li a{display:flex;align-items:center;gap:9px;padding:8px;border-radius:6px;font-weight:500;font-size:15.5px;text-decoration:none;color:var(--ink);break-inside:avoid}
+.panel li a::before{content:"";width:7px;height:7px;border-radius:2px;background:var(--sky);transform:rotate(45deg);flex:none}
+.panel li a:hover{background:var(--calcium);color:var(--royal)}
+.panel.right{left:auto;right:0}
+.hcall{flex:none;margin-left:10px;min-height:48px;padding:0 18px;font-size:16.5px}
+.burger{display:none;width:48px;height:48px;border-radius:8px;place-items:center;margin-left:4px;color:var(--navy)}
+.burger span{display:block;width:24px;height:2.5px;background:currentColor;border-radius:2px;position:relative;transition:.2s}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:24px;height:2.5px;background:currentColor;border-radius:2px;transition:.2s}
+.burger span::before{top:-8px}.burger span::after{top:8px}
+.menu-open .burger span{background:transparent}
+.menu-open .burger span::before{top:0;transform:rotate(45deg)}
+.menu-open .burger span::after{top:0;transform:rotate(-45deg)}
+.mcall{display:none;width:48px;height:48px;border-radius:8px;place-items:center;background:var(--navy);color:#fff;margin-left:auto}
+.mcall svg{width:22px;height:22px}
+.mnav{position:fixed;z-index:39;inset:var(--hh) 0 0 0;background:#fff;overflow-y:auto;padding:12px var(--gut) calc(30px + env(safe-area-inset-bottom));transform:translateX(100%);transition:transform .25s;visibility:hidden}
+.menu-open .mnav{transform:none;visibility:visible}
+.mnav>a,.mnav summary{display:flex;justify-content:space-between;align-items:center;padding:16px 4px;border-bottom:1px solid var(--line);font:800 italic 24px/1 var(--head);text-transform:uppercase;color:var(--navy);text-decoration:none;cursor:pointer;list-style:none}
+.mnav summary::-webkit-details-marker{display:none}
+.mnav summary small{font:600 13px/1 var(--body);font-style:normal;text-transform:none;color:var(--royal);margin-left:auto;margin-right:12px}
+.mnav summary::after{content:"+";font:400 28px/1 var(--body);font-style:normal;color:var(--royal)}
+.mnav details[open] summary::after{content:"\2212"}
+.mnav details ul{list-style:none;padding:6px 0 10px}
+.mnav details li a{display:flex;align-items:center;gap:10px;padding:11px 6px;font-size:17px;font-weight:500;text-decoration:none}
+.mnav details li a::before{content:"";width:7px;height:7px;border-radius:2px;background:var(--sky);transform:rotate(45deg)}
+.mnav .acts{display:grid;gap:10px;margin-top:22px}
+
+/* ===== before / after slider ===== */
+.ba{--p:80%;position:relative;overflow:hidden;touch-action:pan-y;user-select:none;-webkit-user-select:none;cursor:ew-resize;background:var(--deep);outline-offset:3px}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;-webkit-user-drag:none}
+.ba .before{filter:saturate(.88) brightness(.97)}
+.ba .after{clip-path:inset(0 0 0 var(--p))}
+.ba .line{position:absolute;top:0;bottom:0;left:var(--p);width:3px;margin-left:-1.5px;background:#fff;box-shadow:0 0 0 1px rgba(6,26,51,.25);pointer-events:none}
+.ba .grip{position:absolute;top:50%;left:50%;width:54px;height:54px;margin:-27px 0 0 -27px;border-radius:50%;background:#fff;display:grid;place-items:center;color:var(--navy);box-shadow:0 2px 12px rgba(6,26,51,.35)}
+.ba .grip svg{width:28px;height:28px}
+.ba.hint .grip{animation:nudge 1.6s ease-in-out 2}
+@keyframes nudge{0%,100%{transform:translateX(0)}40%{transform:translateX(-14px)}70%{transform:translateX(4px)}}
+.tag{position:absolute;top:12px;padding:6px 11px;font:700 12px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;border-radius:4px;pointer-events:none;z-index:2}
+.tag.b{left:12px;background:rgba(6,26,51,.85);color:#fff}
+.tag.a{right:12px;background:var(--sky);color:var(--deep)}
+
+/* ===== flip card ===== */
+.flip{position:relative;perspective:1400px;cursor:pointer;outline-offset:3px}
+.flip .in{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .7s cubic-bezier(.3,.7,.2,1)}
+.flip.on .in{transform:rotateY(180deg)}
+.flip .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:inherit;overflow:hidden}
+.flip .face img{width:100%;height:100%;object-fit:cover}
+.flip .face.back{transform:rotateY(180deg)}
+.flip .face.front img{filter:saturate(.88) brightness(.97)}
+.flip .tap{position:absolute;z-index:3;left:50%;bottom:14px;transform:translateX(-50%);display:flex;background:rgba(6,26,51,.88);border-radius:999px;padding:4px;gap:2px}
+.flip .tap span{padding:7px 14px;border-radius:999px;font:700 12.5px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:#cfe3f3;transition:.2s}
+.flip:not(.on) .tap .tb,.flip.on .tap .ta{background:var(--sky);color:var(--deep)}
+.flip .ico{position:absolute;z-index:3;top:12px;right:12px;width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;color:var(--navy)}
+.flip .ico svg{width:20px;height:20px}
+
+/* ===== hero ===== */
+.hero{position:relative;height:calc(100svh - var(--hh));min-height:620px;max-height:900px;color:#fff}
+.hero .ba{position:absolute;inset:0}
+.hero .ba img{object-position:50% 22%}
+.hero .tag{top:auto;bottom:auto;top:52px}
+.hero .tag.b{left:auto;right:calc(100% - var(--p0,80%) + 14px)}
+.hero .tag.a{right:var(--gut)}
+.hero .grip{top:30%}
+.scrim{position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(90deg,rgba(6,26,51,.94) 0,rgba(6,26,51,.82) 34%,rgba(6,26,51,.25) 58%,rgba(6,26,51,0) 70%),linear-gradient(to top,rgba(6,26,51,.6) 0,rgba(6,26,51,0) 30%)}
+.hero-copy{position:absolute;z-index:3;inset:0 auto 0 0;display:flex;flex-direction:column;justify-content:center;padding:60px var(--gut) 40px max(var(--gut),calc((100vw - var(--max))/2 + var(--gut)));max-width:min(880px,66vw);pointer-events:none}
+.hero-copy .eyebrow{color:var(--foam);margin-bottom:14px}
+.hero h1{font-size:clamp(50px,6.3vw,92px);line-height:.92}
+.hero h1 em{font-style:inherit;color:var(--sky)}
+.hero p{font-size:clamp(18px,1.6vw,21px);max-width:40ch;margin-top:16px;text-wrap:pretty;color:#e3edf7}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px;pointer-events:auto}
+.proof{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:20px;font-weight:600;font-size:15px}
+.proof b{color:#ffd76a;font-weight:800}
+.drag{position:absolute;z-index:3;top:calc(30% + 40px);transform:translateX(-50%);background:rgba(6,26,51,.88);color:#fff;font:600 14px/1 var(--body);padding:9px 13px;border-radius:999px;pointer-events:none;white-space:nowrap;transition:opacity .3s}
+.drag.gone{opacity:0}
+
+/* ===== results ===== */
+.results header{margin-bottom:clamp(30px,4vw,48px)}
+.results h2{margin:10px 0 14px}
+.sub-h{display:flex;align-items:center;gap:14px;margin:0 0 18px;font:700 14px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--navy)}
+.sub-h::after{content:"";flex:1;height:1px;background:var(--line)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.case .ba,.case .flip{aspect-ratio:3/2;border-radius:10px}
+.grid4 .case .flip{aspect-ratio:4/3}
+.case h3{font-size:26px;margin-top:14px}
+.case p{font-size:15.5px;color:var(--muted);margin-top:4px}
+.case a.more{display:inline-block;margin-top:6px;font-weight:700;font-size:15px;color:var(--royal);text-decoration:none}
+.case a.more:hover{text-decoration:underline}
+
+/* ===== surfaces ===== */
+.surfaces{background:var(--deep);color:#fff}
+.surfaces .eyebrow{color:var(--foam)}
+.surfaces h2{margin:10px 0 12px}
+.surfaces .lede{color:#cdd8ee}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;margin-top:clamp(32px,4vw,48px);background:#fff;border:3px solid #fff}
+.tile{position:relative;aspect-ratio:4/3;overflow:hidden;display:block;text-decoration:none;color:#fff}
+.tile img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.tile:hover img{transform:scale(1.05)}
+.tile span{position:absolute;inset:auto 0 0 0;padding:48px 16px 14px;font:800 italic clamp(20px,2vw,26px)/1 var(--head);text-transform:uppercase;background:linear-gradient(to top,rgba(6,26,51,.94),rgba(6,26,51,0))}
+.tile span small{display:block;font:600 13px/1.3 var(--body);font-style:normal;text-transform:none;color:var(--foam);margin-top:5px}
+
+/* ===== restore ===== */
+.restore{position:relative;color:#fff;overflow:hidden;isolation:isolate}
+.restore>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.restore::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(6,26,51,.95) 0,rgba(6,26,51,.86) 55%,rgba(6,26,51,.6) 100%)}
+.restore .cols{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(32px,6vw,88px);align-items:center}
+.restore .eyebrow{color:var(--foam)}
+.restore h2{margin:10px 0 16px}
+.restore p{color:#dbe4f4;max-width:48ch}
+.facts{list-style:none;padding:0}
+.facts li{padding:16px 0;border-top:1px solid rgba(255,255,255,.28);font-weight:600;font-size:18px;line-height:1.35}
+.facts li:last-child{border-bottom:1px solid rgba(255,255,255,.28)}
+.facts small{display:block;font-weight:400;font-size:15.5px;color:#cdd8ee;margin-top:2px}
+
+/* ===== estimate ===== */
+.estimate{background:var(--calcium)}
+.estimate .cols{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,80px);align-items:start}
+.estimate h2{margin:10px 0 24px}
+.steps{list-style:none;padding:0;counter-reset:s}
+.steps li{counter-increment:s;position:relative;padding:0 0 22px 62px}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:44px;height:44px;background:var(--navy);color:#fff;font:800 italic 24px/44px var(--head);text-align:center;border-radius:6px}
+.steps b{display:block;font:800 italic 23px/1.1 var(--head);text-transform:uppercase}
+.steps span{color:var(--muted)}
+form.est{background:#fff;padding:clamp(22px,3vw,34px);border-radius:12px;border-top:6px solid var(--sky)}
+form.est h3{font-size:30px;margin-bottom:14px}
+label{display:block;font-weight:600;font-size:15px;margin-bottom:12px}
+input,textarea,select{display:block;width:100%;margin-top:5px;padding:13px;font:400 16px/1.3 var(--body);color:var(--ink);background:var(--paper);border:1px solid #c3cfdd;border-radius:6px}
+input[type=file]{padding:10px}
+form.est .btn{width:100%;margin-top:6px}
+.fine{font-size:13.5px;color:var(--muted);margin-top:10px}
+
+/* ===== reviews ===== */
+.reviews{overflow:hidden}
+.reviews .head{display:flex;flex-wrap:wrap;gap:10px 40px;align-items:end;justify-content:space-between;margin-bottom:34px}
+.score{display:flex;align-items:center;gap:12px;font-weight:700}
+.score svg{width:30px;height:30px}
+.score b{font:800 italic 40px/1 var(--head);color:var(--ink)}
+.st{color:#f2a900;letter-spacing:2px}
+.score .st{font-size:19px}
+.marquee{mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.track{display:flex;gap:18px;width:max-content;animation:slide 210s linear infinite}
+.marquee:hover .track{animation-play-state:paused}
+@keyframes slide{to{transform:translateX(-50%)}}
+.rv{flex:none;width:340px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:20px;display:flex;flex-direction:column}
+.rv .st{font-size:16px}
+.rv p{margin:8px 0 12px;font-size:16px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden;flex:1}
+.rv b{font-size:15px}.rv small{color:var(--muted);font-size:13.5px;margin-left:6px}
+.rv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}
+.rv-grid .rv{width:auto}
+.rv-grid .rv p{-webkit-line-clamp:unset;display:block}
+
+/* ===== areas ===== */
+.area{background:var(--navy);color:#fff}
+.area .eyebrow{color:var(--foam)}
+.area h2{margin:10px 0 12px}
+.area .lede{color:#d4def1}
+.towns{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px;list-style:none;padding:0}
+.towns a{display:block;padding:9px 15px;background:rgba(255,255,255,.1);border-radius:6px;font-weight:600;font-size:15.5px;text-decoration:none;transition:background .15s}
+.towns a:hover{background:rgba(255,255,255,.22)}
+.towns a.hub{background:var(--sky);color:var(--deep)}
+.towns.light a{background:#fff;border:1px solid var(--line);color:var(--navy)}
+.towns.light a:hover{background:var(--calcium)}
+
+/* ===== blog ===== */
+.blog{background:var(--paper)}
+.blog .head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:16px;margin-bottom:34px}
+.blog h2{margin-top:10px}
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.post{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:inherit;transition:transform .2s,border-color .2s}
+.post:hover{transform:translateY(-3px);border-color:var(--sky)}
+.post img{aspect-ratio:16/10;width:100%;object-fit:cover}
+.post div{padding:18px 20px 22px;display:flex;flex-direction:column;gap:8px;flex:1}
+.post .cat{font:700 12px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--royal)}
+.post h3{font-size:24px;line-height:1.02}
+.post p{color:var(--muted);font-size:15.5px;flex:1}
+.post .rd{font-weight:700;font-size:15px;color:var(--navy)}
+
+/* ===== final + footer ===== */
+.final{position:relative;color:#fff;text-align:center;overflow:hidden;isolation:isolate;padding:clamp(88px,12vw,150px) 0}
+.final>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.final::before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(6,26,51,.76)}
+.final p{margin:12px auto 0;max-width:42ch;font-size:19px}
+.final .cta{justify-content:center}
+footer{background:var(--deep);color:#b9c8de;font-size:15px}
+.f-top{display:grid;grid-template-columns:1.25fr 1fr 1fr 1.5fr 1.2fr;gap:36px;padding:clamp(56px,7vw,80px) 0 44px}
+.f-logo{display:inline-block;background:#fff;border-radius:14px;padding:10px 14px}
+.f-logo img{height:96px;width:auto}
+.f-about p{margin-top:16px;line-height:1.55}
+footer h4{font:700 13px/1 var(--body);letter-spacing:.16em;text-transform:uppercase;color:#fff;margin-bottom:16px}
+footer ul{list-style:none;padding:0}
+footer li{margin-bottom:9px}
+footer a{color:#b9c8de;text-decoration:none}
+footer a:hover{color:#fff;text-decoration:underline}
+.f-towns ul{columns:2;column-gap:16px}
+.f-contact a.ph{display:block;font:800 italic 26px/1 var(--head);color:#fff;margin-bottom:12px}
+.f-contact p{margin-bottom:8px;line-height:1.5}
+.soc{display:flex;gap:10px;margin-top:16px}
+.soc a{width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.1);display:grid;place-items:center;color:#fff}
+.soc a:hover{background:var(--sky);color:var(--deep);text-decoration:none}
+.soc svg{width:20px;height:20px}
+.badge{display:inline-flex;align-items:center;gap:8px;margin-top:16px;padding:8px 12px;border:1px solid rgba(255,255,255,.2);border-radius:8px;font-weight:600;color:#fff;font-size:14px}
+.f-bot{border-top:1px solid rgba(255,255,255,.14);padding:20px 0 26px;display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center;justify-content:space-between;font-size:14px}
+.f-legal{display:flex;flex-wrap:wrap;gap:6px 18px}
+.byz{display:flex;align-items:center;gap:10px;color:#8fa3bf}
+.byz img{height:64px;width:auto}
+
+/* mobile call bar */
+.bar{position:fixed;z-index:30;inset:auto 0 0 0;display:none;grid-template-columns:1fr 1fr;gap:8px;padding:8px 10px calc(8px + env(safe-area-inset-bottom));background:var(--deep);transform:translateY(110%);transition:transform .25s}
+.bar.on{transform:none}
+.bar .btn{min-height:50px;padding:0 10px;font-size:17px}
+.bar .btn-line{background:transparent}
+
+/* ===== sub pages ===== */
+#sub[hidden],#home[hidden]{display:none}
+.sub-hero{position:relative;color:#fff;isolation:isolate;overflow:hidden;padding:clamp(70px,8vw,110px) 0 clamp(48px,6vw,72px)}
+.sub-hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.sub-hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(6,26,51,.95) 0,rgba(6,26,51,.82) 50%,rgba(6,26,51,.45) 100%)}
+.crumbs{display:flex;flex-wrap:wrap;gap:6px;font-size:14px;color:#c4d4e8;margin-bottom:18px}
+.crumbs a{color:#fff;text-decoration:none}.crumbs a:hover{text-decoration:underline}
+.crumbs span{opacity:.6}
+.sub-hero .eyebrow{color:var(--foam);margin-bottom:12px}
+.sub-hero h1{font-size:clamp(44px,6.2vw,84px);max-width:16ch}
+.sub-hero p{font-size:clamp(18px,1.6vw,20px);max-width:52ch;margin-top:16px;color:#e1ebf6}
+.sub-hero.plain{background:var(--navy)}
+.sub-hero.plain::before{display:none}
+.body2{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:clamp(32px,5vw,64px);align-items:start;padding-top:clamp(48px,6vw,72px);padding-bottom:clamp(56px,7vw,90px)}
+.prose h2{font-size:clamp(30px,3.4vw,42px);margin:44px 0 14px;color:var(--navy)}
+.prose h2:first-child{margin-top:0}
+.prose h3{font-size:24px;margin:26px 0 8px;color:var(--navy)}
+.prose p{margin-bottom:14px;max-width:68ch}
+.prose ul.ck{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;margin:6px 0 10px}
+.prose ul.ck li{position:relative;padding-left:30px;font-weight:500}
+.prose ul.ck li::before{content:"";position:absolute;left:2px;top:7px;width:13px;height:7px;border-left:3px solid var(--royal);border-bottom:3px solid var(--royal);transform:rotate(-45deg)}
+.prose ul.plain,.prose ol.plain{padding-left:22px;margin-bottom:14px}
+.prose ul.plain li,.prose ol.plain li{margin-bottom:8px}
+.prose .media{margin:6px 0 10px}
+.prose .media .ba,.prose .media .flip{aspect-ratio:3/2;border-radius:12px}
+.prose .two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.prose .two .ba{aspect-ratio:4/3;border-radius:10px}
+.qa{border-top:1px solid var(--line)}
+.qa details{border-bottom:1px solid var(--line)}
+.qa summary{padding:18px 40px 18px 0;font-weight:700;font-size:18px;cursor:pointer;list-style:none;position:relative}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary::after{content:"+";position:absolute;right:6px;top:12px;font-size:28px;font-weight:400;color:var(--royal)}
+.qa details[open] summary::after{content:"\2212"}
+.qa details p{padding:0 0 18px;color:var(--muted)}
+.side{position:sticky;top:calc(var(--hh) + 20px);display:grid;gap:16px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:22px}
+.card.est-card{border-top:6px solid var(--sky)}
+.card h3{font-size:26px;color:var(--navy);margin-bottom:8px}
+.card p{color:var(--muted);font-size:15.5px;margin-bottom:14px}
+.card .btn{width:100%;margin-top:8px}
+.card ul{list-style:none;padding:0}
+.card li a{display:block;padding:8px 0;border-bottom:1px solid var(--line);text-decoration:none;font-weight:600;color:var(--navy);font-size:15.5px}
+.card li a:hover{color:var(--royal)}
+.card li:last-child a{border:0}
+.card.trip{background:var(--navy);color:#fff;border:0}
+.card.trip h3{color:#fff}.card.trip p{color:#cfdcef}
+.band{background:var(--calcium);padding:clamp(56px,7vw,84px) 0}
+.band h2{font-size:clamp(32px,4vw,48px);color:var(--navy);margin-bottom:8px}
+.ctaband{background:var(--royal);color:#fff;text-align:center;padding:clamp(56px,7vw,84px) 0}
+.ctaband h2{font-size:clamp(34px,4.4vw,54px)}
+.ctaband p{margin:10px auto 0;max-width:46ch;color:#e3f1fb}
+.ctaband .cta{justify-content:center}
+.idx{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
+.idx a{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:inherit;transition:border-color .2s,transform .2s}
+.idx a:hover{border-color:var(--sky);transform:translateY(-3px)}
+.idx img{aspect-ratio:16/10;width:100%;object-fit:cover}
+.idx b{display:block;padding:14px 16px 4px;font:800 italic 22px/1.05 var(--head);text-transform:uppercase;color:var(--navy)}
+.idx span{display:block;padding:0 16px 16px;color:var(--muted);font-size:15px}
+.idx.towns-idx a{padding:18px 18px 16px}
+.idx.towns-idx b{padding:0 0 4px}
+.idx.towns-idx span{padding:0}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.gal figure{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.gal img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.gal figcaption{padding:10px 14px;font-size:14px;color:var(--muted);display:flex;justify-content:space-between}
+.gal figcaption b{color:var(--navy)}
+.ph-box{aspect-ratio:4/5;border:2px dashed #9fb4cc;border-radius:12px;display:grid;place-items:center;text-align:center;color:var(--muted);background:repeating-linear-gradient(45deg,#fff 0 14px,#f1f6fb 14px 28px);font-weight:600;padding:20px}
+.article{max-width:760px;margin:0 auto;padding:clamp(44px,6vw,72px) var(--gut) clamp(56px,7vw,90px)}
+.article .meta{display:flex;flex-wrap:wrap;gap:6px 16px;color:var(--muted);font-size:15px;margin-bottom:26px;padding-bottom:18px;border-bottom:1px solid var(--line)}
+.article .meta b{color:var(--navy)}
+.article .prose p{font-size:18px;line-height:1.7}
+.article .callout{background:var(--calcium);border-left:5px solid var(--sky);padding:18px 22px;border-radius:0 10px 10px 0;margin:22px 0;font-weight:500}
+.legal .prose p,.legal .prose li{font-size:16.5px;color:#2b3d55}
+.sitemap{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:28px}
+.sitemap h3{font-size:22px;color:var(--navy);margin-bottom:10px}
+.sitemap ul{list-style:none;padding:0}
+.sitemap li a{display:block;padding:5px 0;color:var(--royal);font-weight:600;text-decoration:none}
+.sitemap li a:hover{text-decoration:underline}
+.count-pill{display:inline-block;margin-top:18px;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.14);font-weight:700;font-size:15px}
+
+/* ===== quote wizard ===== */
+.wiz{background:#fff;border-radius:14px;border-top:6px solid var(--sky);padding:clamp(22px,3vw,32px);min-height:520px;display:flex;flex-direction:column}
+.wiz-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}
+.wiz-top b{font:700 13px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--royal)}
+.wiz-back{font-weight:700;font-size:15px;color:var(--navy);padding:6px 4px;visibility:hidden}
+.wiz-back.on{visibility:visible}
+.wiz-bar{height:6px;background:var(--calcium);border-radius:99px;overflow:hidden;margin-bottom:22px}
+.wiz-bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--royal),var(--sky));border-radius:99px;transition:width .35s}
+.wiz-step{display:none;flex:1;flex-direction:column;animation:wizin .35s ease}
+.wiz-step.on{display:flex}
+@keyframes wizin{from{opacity:0;transform:translateX(14px)}to{opacity:1;transform:none}}
+.wiz h3{font-size:clamp(26px,2.6vw,32px);color:var(--navy);margin-bottom:6px}
+.wiz .hint{color:var(--muted);font-size:15.5px;margin-bottom:16px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.opt{position:relative;display:flex;align-items:center;gap:12px;min-height:64px;padding:10px 14px;border:2px solid var(--line);border-radius:10px;background:#fff;text-align:left;font-weight:600;font-size:16px;color:var(--ink);transition:border-color .15s,background .15s}
+.opt:hover{border-color:var(--sky)}
+.opt.sel{border-color:var(--royal);background:#eef7fd}
+.opt.sel::after{content:"";position:absolute;top:8px;right:9px;width:18px;height:18px;border-radius:50%;background:var(--royal) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5 9-10'/%3E%3C/svg%3E") center/12px no-repeat}
+.opt img{width:52px;height:52px;border-radius:7px;object-fit:cover;flex:none}
+.opt .qm{width:52px;height:52px;border-radius:7px;flex:none;display:grid;place-items:center;background:var(--calcium);color:var(--royal)}.opt .qm svg{width:26px;height:26px}
+.opt small{display:block;font-weight:500;font-size:13.5px;color:var(--muted);margin-top:2px}
+.opts.one{grid-template-columns:1fr}
+.wiz label{margin-bottom:12px}
+.wiz .drop{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;border:2px dashed #9fb4cc;border-radius:12px;padding:26px 16px;text-align:center;color:var(--muted);cursor:pointer;background:var(--paper);font-weight:600}
+.wiz .drop b{color:var(--navy);font-size:17px}
+.wiz .drop input{display:none}
+.wiz .files{margin-top:10px;font-size:14.5px;color:var(--royal);font-weight:600}
+.wiz-next{margin-top:auto;padding-top:18px}
+.wiz-next .btn{width:100%}
+.wiz-next .btn[disabled]{opacity:.45;cursor:not-allowed}
+.wiz .skip{display:block;text-align:center;margin-top:10px;font-weight:600;font-size:15px;color:var(--muted);text-decoration:underline;width:100%}
+.wiz .done{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:10px}
+.wiz .done .ck{width:72px;height:72px;border-radius:50%;background:var(--sky);display:grid;place-items:center;color:var(--deep)}
+.wiz .done .ck svg{width:38px;height:38px}
+.wiz .done p{color:var(--muted);max-width:34ch}
+.wiz .seg{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+@media (max-width:640px){.opts{grid-template-columns:1fr}.wiz{min-height:0}}
+@media (max-width:1180px){
+  .hcall .lbl{display:none}
+  .nav>li>a,.nav>li>button{padding:10px 9px;font-size:15.5px}
+}
+@media (max-width:1024px){
+  :root{--hh:72px}
+  .nav,.hcall{display:none}
+  .burger,.mcall{display:grid}
+  .brand{margin-bottom:0;align-self:center;padding:0;border:0;border-radius:0}
+  .brand img{height:60px}
+  .grid3{grid-template-columns:1fr 1fr}
+  .grid4{grid-template-columns:1fr 1fr}
+  .tiles{grid-template-columns:repeat(2,1fr)}
+  .restore .cols,.estimate .cols{grid-template-columns:1fr}
+  .restore::before{background:rgba(6,26,51,.87)}
+  .f-top{grid-template-columns:1fr 1fr;gap:34px}
+  .f-about{grid-column:1/-1}
+  .body2{grid-template-columns:1fr}
+  .side{position:static}
+  .posts{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+  body{font-size:16.5px}
+  .bar{display:grid}
+  .grid3,.grid4,.posts{grid-template-columns:1fr}
+  .tiles{grid-template-columns:1fr 1fr}
+  .tile span{font-size:18px;padding:40px 10px 10px}
+  .hero{height:auto;min-height:0;max-height:none;display:flex;flex-direction:column}
+  .hero .ba{position:relative;inset:auto;aspect-ratio:4/3.4;flex:none}
+  .hero .ba img{object-position:50% 30%}
+  .hero .tag{top:14px}
+  .hero .tag.b{left:12px;right:auto}
+  .hero .tag.a{right:12px}
+  .hero .grip{top:50%}
+  .drag{top:calc(50% + 40px)}
+  .scrim{display:none}
+  .eyebrow{letter-spacing:.12em}
+  .drag{display:none}
+  .hero-copy{position:relative;inset:auto;max-width:none;padding:28px var(--gut) 34px;background:var(--deep);text-align:center;align-items:center}
+  .hero p{margin-left:auto;margin-right:auto}
+  .cta,.proof{justify-content:center}
+  .cta .btn{width:100%}
+  .rv{width:300px}
+  .reviews .head{justify-content:center;text-align:center}
+  .results header,.surfaces .wrap>div:first-child,.area .wrap,.estimate .cols>div:first-child,.blog .head{text-align:center;justify-content:center}
+  .results .lede,.surfaces .lede,.area .lede{margin-left:auto;margin-right:auto}
+  .towns{justify-content:center}
+  .case{text-align:center}
+  .steps{text-align:left}
+  .prose ul.ck,.prose .two{grid-template-columns:1fr}
+  .f-top{grid-template-columns:1fr;text-align:center}
+  .f-about,.f-contact{justify-items:center}
+  .soc{justify-content:center}
+  .f-towns ul{columns:2}
+  .f-bot{justify-content:center;text-align:center;padding-bottom:calc(26px + 70px)}
+  .f-legal{justify-content:center}
+  .sub-hero{text-align:left}
+}
+@media (prefers-reduced-motion:reduce){.track{animation:none}html{scroll-behavior:auto}.flip .in{transition:none}}
+</style>
+</head>
+<body>
+
+<header class="site"><div class="wrap">
+  <a class="brand" href="#/" aria-label="Blast Masters home"><img src="photos/logo.png" alt="Blast Masters Pool Tile Cleaning" width="895" height="760"></a>
+  <ul class="nav" id="nav"></ul>
+  <a class="btn btn-navy hcall" href="tel:+13617665518"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.4 11.4 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02z"/></svg><span class="lbl">(361) 766-5518</span></a>
+  <a class="mcall" href="tel:+13617665518" aria-label="Call Blast Masters"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.4 11.4 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02z"/></svg></a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mnav"><span></span></button>
+</div></header>
+<nav class="mnav" id="mnav" aria-label="Mobile menu"></nav>
+
+<main id="home">
+<div class="hero" id="top">
+  <div class="ba hint" data-ba role="slider" tabindex="0" aria-label="Drag to compare the pool wall before and after cleaning" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80">
+    <img class="before" src="photos/hero-before.jpg" alt="Blue pool tile wall covered in white calcium" width="1478" height="955">
+    <img class="after" src="photos/hero-after.jpg" alt="The same pool tile wall clean after blasting" width="1478" height="955">
+    <div class="line"><div class="grip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5"/></svg></div></div>
+    <span class="tag b">Before</span><span class="tag a">After</span>
+  </div>
+  <div class="scrim"></div>
+  <div class="drag" id="drag">&larr; Drag to clean it</div>
+  <div class="hero-copy">
+    <div class="eyebrow">South Texas pool tile cleaning</div>
+    <h1>Calcium gone.<br><em>Tile like new.</em></h1>
+    <p>We blast years of white buildup off your pool tile, rock and water features in hours. No replacing anything.</p>
+    <div class="cta">
+      <a class="btn btn-sky" href="tel:+13617665518"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.4 11.4 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02z"/></svg>Call (361) 766-5518</a>
+      <a class="btn btn-line" href="sms:+13617665518?&body=Hi%20Patrick%2C%20I%27d%20like%20an%20estimate.%20Here%20are%20some%20photos%20of%20my%20pool%20tile%3A">Text us your photos</a>
+    </div>
+    <div class="proof"><span><b>5.0</b> on Google, 28 reviews</span><span>Veteran-owned</span><span>Free estimates</span></div>
+  </div>
+</div>
+<div class="strip"></div>
+
+<section class="results" id="results"><div class="wrap">
+  <header>
+    <div class="eyebrow">Real pools, real results</div>
+    <h2>See the difference</h2>
+    <p class="lede">These are our own jobs. Same tile, same stone, nothing replaced.</p>
+  </header>
+  <div class="sub-h">Drag the line</div>
+  <div class="grid3" id="sliders"></div>
+  <div class="grid4" id="flips"></div>
+</div></section>
+
+<section class="surfaces" id="services"><div class="wrap">
+  <div>
+    <div class="eyebrow">Our services</div>
+    <h2>If calcium is on it, we can clean it</h2>
+    <p class="lede">Calcium doesn't stop at the waterline. It takes over rock, stone, coping, waterfalls and water features too.</p>
+  </div>
+  <div class="tiles" id="tiles"></div>
+</div></section>
+
+<section class="restore">
+  <img loading="lazy" src="photos/talavera-after.jpg" alt="">
+  <div class="wrap cols">
+    <div>
+      <div class="eyebrow">Before you retile</div>
+      <h2>Don't replace it.<br>Restore it.</h2>
+      <p>Left alone, calcium gets harder to remove, and damaged tile or grout means an expensive replacement. Professional cleaning can cost far less than tearing it out.</p>
+    </div>
+    <ul class="facts">
+      <li>Specialized blasting media<small>Low pressure, eco friendly, and it won't damage your tile.</small></li>
+      <li>Your landscaping stays put<small>Safe around the plants and stone next to your pool.</small></li>
+      <li>Minimal water loss<small>Our water recovery system keeps your water where it belongs.</small></li>
+      <li>Done in hours<small>Years of buildup, gone in a single visit.</small></li>
+    </ul>
+  </div>
+</section>
+
+<section class="estimate" id="estimate"><div class="wrap cols">
+  <div>
+    <div class="eyebrow">Free estimate</div>
+    <h2>Start with a few photos</h2>
+    <ol class="steps">
+      <li><b>Send your photos</b><span>Your name, address, phone number and a few pictures of your tile.</span></li>
+      <li><b>Get your estimate</b><span>We look at the buildup and tell you what it takes. No charge.</span></li>
+      <li><b>We blast it clean</b><span>You get a pool that looks new again.</span></li>
+    </ol>
+  </div>
+  <div class="formslot"></div>
+</div></section>
+
+<section class="reviews" id="reviews">
+  <div class="wrap head">
+    <div><div class="eyebrow">What pool owners say</div><h2>28 reviews. All five stars.</h2></div>
+    <a class="score" href="#/reviews" style="text-decoration:none"><span class="gsvg"></span><b>5.0</b><span class="st">&#9733;&#9733;&#9733;&#9733;&#9733;</span></a>
+  </div>
+  <div class="marquee"><div class="track" id="track"></div></div>
+</section>
+
+<section class="area" id="areas"><div class="wrap">
+  <div class="eyebrow">Where we work</div>
+  <h2>All of South Texas</h2>
+  <p class="lede">Based in Portland, working from Yorktown to McAllen to Laredo. Tap your town.</p>
+  <ul class="towns" id="townchips"></ul>
+</div></section>
+
+<section class="blog" id="blog"><div class="wrap">
+  <div class="head">
+    <div><div class="eyebrow">Pool tile tips</div><h2>From the blog</h2></div>
+    <a class="btn btn-ghost" href="#/blog">All articles</a>
+  </div>
+  <div class="posts" id="posts"></div>
+</div></section>
+
+<section class="final">
+  <img loading="lazy" src="photos/wall-after.jpg" alt="">
+  <div class="wrap">
+    <h2>Stop staring at that white line</h2>
+    <p>Send a few pictures today and find out what it takes to get your pool back.</p>
+    <div class="cta">
+      <a class="btn btn-sky" href="tel:+13617665518">Call (361) 766-5518</a>
+      <a class="btn btn-line" href="#/contact">Get a free estimate</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<main id="sub" hidden></main>
+
+<footer><div class="wrap">
+  <div class="f-top">
+    <div class="f-about">
+      <a class="f-logo" href="#/"><img src="photos/logo-360.png" alt="Blast Masters Pool Tile Cleaning" width="360" height="306"></a>
+      <p>Calcium removal for pool tile, rock, stone and water features across South Texas. Low-pressure blasting that won't hurt your tile or your landscaping.</p>
+      <div class="badge">&#9733; Veteran-owned business</div>
+    </div>
+    <div><h4>Company</h4><ul id="f-co"></ul></div>
+    <div><h4>Services</h4><ul id="f-sv"></ul></div>
+    <div class="f-towns"><h4>Service areas</h4><ul id="f-tw"></ul></div>
+    <div class="f-contact">
+      <h4>Contact</h4>
+      <a class="ph" href="tel:+13617665518">(361) 766-5518</a>
+      <p>Call or text anytime</p>
+      <p>Portland, TX 78374<br>Serving South Texas</p>
+      <p><a href="#/contact">Send photos for a free estimate</a></p>
+      <div class="soc">
+        <a href="https://www.facebook.com/profile.php?id=61579336029253" target="_blank" rel="noopener" aria-label="Blast Masters on Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 22v-8.2h2.8l.4-3.2h-3.2V8.5c0-.9.3-1.6 1.6-1.6h1.7V4.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.2h2.8V22h3.4z"/></svg></a>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Blast+Masters+Pool+Tile+Cleaning+%26+Surface+Prep+Portland+TX" target="_blank" rel="noopener" aria-label="Blast Masters on Google"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.6 12.2c0-.7-.1-1.4-.2-2H12v3.8h5.4a4.6 4.6 0 0 1-2 3v2.5h3.2c1.9-1.7 3-4.3 3-7.3zM12 22c2.7 0 5-.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1-2.6 0-4.8-1.8-5.6-4.1H3.1v2.6A10 10 0 0 0 12 22zM6.4 14a6 6 0 0 1 0-3.9V7.5H3.1a10 10 0 0 0 0 9zM12 5.9c1.5 0 2.8.5 3.8 1.5l2.9-2.9A10 10 0 0 0 3.1 7.5l3.3 2.6C7.2 7.7 9.4 5.9 12 5.9z"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="f-bot">
+    <div>&copy; 2026 Blast Masters Pool Tile Cleaning &amp; Surface Prep, LLC. All rights reserved.</div>
+    <div class="f-legal"><a href="#/privacy">Privacy Policy</a><a href="#/terms">Terms of Service</a><a href="#/accessibility">Accessibility</a><a href="#/sitemap">Sitemap</a></div>
+    <a class="byz" href="https://zonkelmedia.com" target="_blank" rel="noopener">Website by <img src="photos/zonkel-logo.png" alt="Zonkel Media" width="400" height="253"></a>
+  </div>
+</div></footer>
+
+<div class="bar" id="bar">
+  <a class="btn btn-sky" href="tel:+13617665518">Call now</a>
+  <a class="btn btn-line" href="sms:+13617665518">Text photos</a>
+</div>
+
+<script>
+var PHONE='(361) 766-5518',TEL='tel:+13617665518',SMS='sms:+13617665518';
+var G='<svg viewBox="0 0 48 48" width="30" height="30"><path fill="#EA4335" d="M24 9.5c3.5 0 6.7 1.2 9.2 3.6l6.9-6.9C35.9 2.4 30.5 0 24 0 14.6 0 6.5 5.4 2.6 13.2l8 6.2C12.5 13.7 17.8 9.5 24 9.5z"/><path fill="#4285F4" d="M46.9 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.9c-.6 3-2.3 5.5-4.8 7.2l7.7 6c4.5-4.2 7.1-10.3 7.1-17.7z"/><path fill="#FBBC05" d="M10.5 28.6A14.4 14.4 0 0 1 9.7 24c0-1.6.3-3.2.8-4.6l-8-6.2A24 24 0 0 0 0 24c0 3.9.9 7.5 2.6 10.8l7.9-6.2z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.7-6c-2.2 1.4-4.9 2.3-8.2 2.3-6.2 0-11.5-4.2-13.4-9.9l-8 6.2C6.5 42.6 14.6 48 24 48z"/></svg>';
+var GRIP='<div class="line"><div class="grip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5"/></svg></div></div>';
+var FLIPICO='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16"/><path d="M3 21v-5h5"/></svg>';
+
+/* pairs that line up get a slider; pairs shot from a different angle or light get a flip card */
+var PAIRS={
+  hero:{k:'s',n:'Pool tile waterline',d:'A full wall of white streaks, gone.'},
+  rock:{k:'s',n:'Rock waterfall',d:'Rock and stone, not just tile.'},
+  spa:{k:'s',n:'Spa spillway',d:'White streaks down the glass tile, cleaned off.'},
+  wall:{k:'s',n:'Glass tile wall',d:'Glass mosaic back to its true color.'},
+  talavera:{k:'f',n:'Decorative tile',d:'Detail that was hiding under the buildup.'},
+  stacked:{k:'f',n:'Stacked stone',d:'Calcium-coated stone back to its real color.'},
+  fountain:{k:'f',n:'Stone water feature',d:'Years of runoff stains, gone.'},
+  grout:{k:'f',n:'Tile and grout',d:'Haze off the tile, crisp grout lines again.'}
+};
+function baHTML(id,lazy){var p=PAIRS[id],l=lazy===false?'':' loading="lazy"';return '<div class="ba" data-ba role="slider" tabindex="0" aria-label="Drag to compare '+p.n+' before and after" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><img class="before"'+l+' src="photos/'+id+'-before.jpg" alt="'+p.n+' before cleaning"><img class="after"'+l+' src="photos/'+id+'-after.jpg" alt="'+p.n+' after cleaning">'+GRIP+'<span class="tag b">Before</span><span class="tag a">After</span></div>'}
+function flipHTML(id){var p=PAIRS[id];return '<div class="flip" data-flip role="button" tabindex="0" aria-pressed="false" aria-label="Flip to see '+p.n+' after cleaning"><div class="in"><div class="face front"><img loading="lazy" src="photos/'+id+'-before.jpg" alt="'+p.n+' before cleaning"></div><div class="face back"><img loading="lazy" src="photos/'+id+'-after.jpg" alt="'+p.n+' after cleaning"></div></div><span class="ico">'+FLIPICO+'</span><div class="tap"><span class="tb">Before</span><span class="ta">After</span></div></div>'}
+function mediaHTML(id){return PAIRS[id].k==='s'?baHTML(id):flipHTML(id)}
+
+var SERVICES=[
+  {s:'pool-tile-cleaning',n:'Pool Tile Cleaning',p:'hero',t:'The white line at your waterline, blasted off without scratching the tile.',
+   i:'Every pool in South Texas gets that white band at the waterline. Hard water evaporates in the heat and leaves its minerals behind, and after a few summers brushing and acid washes stop working. We remove it with specialized low-pressure blasting media, so the calcium comes off and your tile stays put.'},
+  {s:'calcium-removal',n:'Calcium Removal',p:'talavera',t:'Hard scale on tile, stone and features, removed in a single visit.',
+   i:'Calcium scale is the hard, crusty buildup that brushes and household cleaners can\'t touch. It hides the color of decorative tile, dulls stone and spreads every year it stays. Our blasting process takes it off down to the original surface, and our customers tell us it looks like new tile.'},
+  {s:'glass-tile-cleaning',n:'Glass Tile Cleaning',p:'wall',t:'Glass mosaic back to its real color, with no scratches.',
+   i:'Glass tile is beautiful and easy to ruin. Pumice stones and harsh acids can scratch or etch it for good. We use a media made to remove mineral buildup from glass tile without damaging the surface, so the color and shine come back.'},
+  {s:'tile-grout-cleaning',n:'Tile &amp; Grout Cleaning',p:'grout',t:'Haze off the tile and crisp, clean grout lines again.',
+   i:'Mineral haze settles into grout lines first and makes the whole wall look gray and tired. We clean the tile face and the grout together, so the pattern pops again and you can see clean lines from across the yard.'},
+  {s:'rock-stone-cleaning',n:'Rock &amp; Stone Cleaning',p:'rock',t:'Rock waterfalls and flagstone back to their natural color.',
+   i:'Rock and flagstone soak up minerals from splashing water and turn chalky white. We clean rock waterfalls, boulders and flagstone without hurting the stone or the plants around it.'},
+  {s:'water-feature-cleaning',n:'Water Feature &amp; Fountain Cleaning',p:'fountain',t:'Fountains, scuppers and sheer descents, runoff stains removed.',
+   i:'Water features run all day, and every drop leaves minerals behind. Stone walls and fountains end up streaked with white runoff stains. We remove the buildup so the feature looks the way it did the day it was built.'},
+  {s:'spa-spillway-cleaning',n:'Spa &amp; Spillway Cleaning',p:'spa',t:'The white streaks down your spillway, gone.',
+   i:'Spillways get the worst of it: water runs over the same tile all day and leaves white streaks behind. We clean the spillway, the spa walls and the tile around them in the same visit.'},
+  {s:'coping-stacked-stone-cleaning',n:'Coping &amp; Stacked Stone Cleaning',p:'stacked',t:'Coping, ledges and stacked stone walls, clean again.',
+   i:'Coping and stacked stone take splash and runoff every day. Calcium builds up in the joints and on the face of the stone until the wall looks bleached. We blast it clean and bring back the color of the stone.'}
+];
+var TOWNS=[
+  {s:'corpus-christi',n:'Corpus Christi',r:'cb',hub:1},{s:'portland',n:'Portland',r:'cb',home:1},{s:'rockport',n:'Rockport',r:'cb'},
+  {s:'aransas-pass',n:'Aransas Pass',r:'cb'},{s:'port-aransas',n:'Port Aransas',r:'cb'},{s:'ingleside',n:'Ingleside',r:'cb'},
+  {s:'flour-bluff',n:'Flour Bluff',r:'cb'},{s:'kingsville',n:'Kingsville',r:'st'},{s:'victoria',n:'Victoria',r:'vc',far:1},
+  {s:'goliad',n:'Goliad',r:'vc',far:1},{s:'yorktown',n:'Yorktown',r:'vc',far:1},{s:'laredo',n:'Laredo',r:'bd',far:1},
+  {s:'mcallen',n:'McAllen',r:'rgv',far:1},{s:'brownsville',n:'Brownsville',r:'rgv',far:1}
+];
+var POSTS=[
+  {s:'why-calcium-keeps-coming-back',c:'Pool care',n:'Why that white line keeps coming back on your pool tile',d:'November 2026',m:'5 min read',img:'hero-before.jpg',x:'South Texas heat and hard water are a rough mix. Here\'s what\'s really happening at your waterline, and what you can do about it.'},
+  {s:'restore-or-retile',c:'Before you spend',n:'Restore or retile? What to try before you tear out your pool tile',d:'October 2026',m:'4 min read',img:'talavera-after.jpg',x:'Crusty, white tile doesn\'t always mean new tile. How to tell if yours can be saved.'},
+  {s:'spa-spillway-job',c:'Job spotlight',n:'Job spotlight: a glass tile spa spillway, back to blue',d:'September 2026',m:'2 min read',img:'spa-after.jpg',x:'White streaks down a glass tile spillway, cleaned in one visit.'}
+];
+var REVIEWS=[{"n": "Kelly Devenney", "t": "We’ve been struggling to get the mineral build up off my glass pool tiles for the last two years. Blast Masters came out and had my tiles cleaned in four hours! We are completely amazed at the difference, and would highly recommend.", "d": "3 months ago"}, {"n": "Robert Tortorello", "t": "Great job! I tried cleaning the pool tile with chemicals and a lot of elbow grease however, I was not able to remove the calcium / hard water buildup. Blast Masters Pool Tile Cleaning & Surface Prep took care of it and it only took a couple of hours. The tile and grout look absolutely beautiful, as when they were newly installed!", "d": "a year ago"}, {"n": "Jerald Rossett", "t": "Our pool has a future again. Blast Masters Pool Tile Cleaning & Surface Prep/Patrick. Did an amazing job on our pool. We didn’t think we would be able to get our  tile and flagstone close to its original look. Patrick came in and had it looking brand new again. Patrick was very easy to work with and very efficient doing the job. Highly satisfied and highly recommended Blast Masters Pool Tile Cleaning & Surface Prep Co.\nThank you Patrick", "d": "5 months ago"}, {"n": "James Haney", "t": "My tile came out perfect it actually took a little longer than what he estimated but he didn't charge any extra and completed the job 100% on time.", "d": "7 months ago"}, {"n": "Will Adley", "t": "Patrick with Blast Masters Pool Tile Cleaning & Surface Prep did a great job on removing the waterline around our pool. We also had a lot of buildup (calcium) under our waterfall feature. He was able to remove it and it looks so much better.  Patrick was professional, friendly, knowledgeable and did a very thorough job.  I would highly recommend Blast Masters to anyone with a pool that has a (waterline). They are local and Veteran owned.", "d": "10 months ago"}, {"n": "Nancy Thomas", "t": "Patrick was a great guy to work with. He described what he would do to remove the calcium buildup and followed thru with exactly that. Our pool tile has not been this clean in many years .  Highly recommend his company and him to get your tile looking great.", "d": "8 months ago"}, {"n": "Jerry Walker", "t": "Blast masters did two pools for me this week. They turned out absolutely amazing. I will use them once a year on both pools. Very professional, prompt and respectful. They are veteran owned and ran by a retired B52 pilot. Support your local veterans.", "d": "a year ago"}, {"n": "John Maglio", "t": "We are so happy with the work Patrick did for us!  We feel like we have a new pool!!  It brightens up our backyard paradise.  We spend a lot of time enjoying our pool so it was well worth the investment.  Thank you!", "d": "6 months ago"}, {"n": "TeeTimeInTX", "t": "Could not be more pleased! After a 2 year old renovation of my pool,  there was already calcium build up on my new tile and spa. Patrick did a great job of restoring it to its original beauty! Highly recommend!", "d": "9 months ago"}, {"n": "Sara Gossett", "t": "Blast Masters Pool Tile Cleaners was great!  Very easy to work with and schedule.  You can see from the before and after pictures what a great job Patrick did cleaning off the build up.  Very pleased", "d": "5 months ago"}, {"n": "Melissa Quintanilla", "t": "Patrick did a wonderful job! I had many years of calcium build up and this is the cleanest it’s looked in a while! He was professional, and prompt. Overall very satisfied.", "d": "5 months ago"}, {"n": "Mary Olson", "t": "What an improvement!  My tile had calcium build up that was too difficult to remove by hand or even special tools.  Patrick did a great job. Highly recommended.", "d": "11 months ago"}, {"n": "Kenneth Thompson", "t": "This guy does top notch work! Our fountain looked horrible and he knocked it out!!!! Looks brand new! I would highly recommend him to any pool owner!!", "d": "8 months ago"}, {"n": "Dorey Williams", "t": "Thank you Blast Masters, great job, pool tile looks great. Will definitely recommend you to anyone looking to have their pool tile blasted.", "d": "7 months ago"}, {"n": "Nan Baus", "t": "Before and after\nIt looks like we just got new pool waterline tile\nVery happy with results\nGreat customer service and scheduling", "d": "5 months ago"}, {"n": "Maria Canales", "t": "Excellent work!!! Our pool tiles look good as new!!! Thank you Blast Masters, we will definitely recommend you to our friends!!!", "d": "9 months ago"}, {"n": "Sandy Klostermann", "t": "What a great experience. Our pool looks brand new again. We could not be more pleased with the results. Highly recommend.", "d": "7 months ago"}, {"n": "Benny Cason", "t": "Patrick does an amazing job! If you are wanting your tile cleaned, this is the company to call!", "d": "7 months ago"}, {"n": "Sharon Kantner", "t": "Very professional, attention to detail, our tile looks great now. Would highly recommend!", "d": "a month ago"}, {"n": "Sandra Alvarez", "t": "I’m so happy I called. They made a difference on how our pool looks. What a difference. 💕", "d": "2 months ago"}, {"n": "Cathy Clark", "t": "A very professional company. Treated us like valued customers. We highly recommend him!", "d": "8 months ago"}, {"n": "Wade Meismer", "t": "Very satisfied with the service & how our pool tiles turned out. Highly recommend!", "d": "a month ago"}, {"n": "Blue Tide Acrylics (Jake)", "t": "Great work by Blaster Master Pool tile Cleaning Co., transformation was amazing!!", "d": "10 months ago"}, {"n": "T Minister", "t": "Very responsive and did an amazing job cleaning our pool tile. Highly recommend!", "d": "9 months ago"}, {"n": "Dorothy Smith", "t": "Patrick did an amazing job on my pool. I was 100% pleased with the work done.", "d": "6 months ago"}, {"n": "Melanie Pendleton", "t": "Patrick was great! Pool has never looked better. Highly recommend!", "d": "a year ago"}, {"n": "Monique Ahlers", "t": "They did a fantastic job!  I definitely recommend", "d": "a month ago"}];
+var ABOUT=[['about','About Us'],['reviews','Reviews'],['our-work','Our Work'],['faq','FAQ']];
+var FAQ=[
+  ['Will blasting damage my tile?','No. We use a specialized, low-pressure blasting media made to take calcium off without hurting the tile underneath, including glass tile.'],
+  ['Is it safe for my plants and landscaping?','Yes. The media is eco friendly and won\'t damage the plants, rock or landscaping around your pool.'],
+  ['Do you have to drain my pool?','Our water recovery system keeps water loss to a minimum. We\'ll tell you exactly what to expect for your pool when we give you your estimate.'],
+  ['How long does it take?','Many jobs are done in a few hours. Bigger pools, heavy buildup or rock features can take longer. We\'ll tell you up front.'],
+  ['How do I get a price?','Send us a few photos of your tile with your name and address. We look at the buildup and give you a free estimate.'],
+  ['Do you really come out to my town?','Yes. We\'re based in Portland and work across South Texas, from Yorktown and Victoria down to Laredo, McAllen and Brownsville.'],
+  ['How do I keep the calcium from coming back?','Keep your water balanced, brush the waterline every week, and top off with care. Most pools in our area still need a cleaning every year or two because of the hard water.']
+];
+
+function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
+function caret(){return '<svg class="car" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4l4 4 4-4"/></svg>'}
+function townName(t){return t.n}
+
+/* ---- nav (desktop + mobile) ---- */
+(function(){
+  var sv=SERVICES.map(function(x){return '<li><a href="#/service/'+x.s+'">'+x.n+'</a></li>'}).join('');
+  var tw=TOWNS.map(function(x){return '<li><a href="#/area/'+x.s+'">'+x.n+'</a></li>'}).join('');
+  var ab=ABOUT.map(function(x){return '<li><a href="#/'+x[0]+'">'+x[1]+'</a></li>'}).join('');
+  document.getElementById('nav').innerHTML=
+    '<li><a href="#/">Home</a></li>'+
+    '<li class="dd"><button aria-haspopup="true">Services'+caret()+'</button><div class="panel"><div class="cnt">'+SERVICES.length+' service pages<a href="#/services">View all</a></div><ul>'+sv+'</ul></div></li>'+
+    '<li class="dd"><button aria-haspopup="true">Service Areas'+caret()+'</button><div class="panel cols2"><div class="cnt">'+TOWNS.length+' town pages<a href="#/areas">View all</a></div><ul>'+tw+'</ul></div></li>'+
+    '<li class="dd"><button aria-haspopup="true">About'+caret()+'</button><div class="panel"><ul>'+ab+'</ul></div></li>'+
+    '<li><a href="#/blog">Blog</a></li><li><a href="#/contact">Contact</a></li>';
+  document.getElementById('mnav').innerHTML=
+    '<a href="#/">Home</a>'+
+    '<details><summary>Services<small>'+SERVICES.length+' pages</small></summary><ul>'+sv+'<li><a href="#/services">All services</a></li></ul></details>'+
+    '<details><summary>Service Areas<small>'+TOWNS.length+' towns</small></summary><ul>'+tw+'<li><a href="#/areas">All service areas</a></li></ul></details>'+
+    '<details><summary>About</summary><ul>'+ab+'</ul></details>'+
+    '<a href="#/blog">Blog</a><a href="#/contact">Contact</a>'+
+    '<div class="acts"><a class="btn btn-navy" href="'+TEL+'">Call '+PHONE+'</a><a class="btn btn-ghost" href="'+SMS+'">Text us your photos</a></div>';
+  document.getElementById('f-co').innerHTML=ab+'<li><a href="#/blog">Blog</a></li><li><a href="#/contact">Contact</a></li>';
+  document.getElementById('f-sv').innerHTML=sv;
+  document.getElementById('f-tw').innerHTML=tw;
+  var b=document.getElementById('burger');
+  b.addEventListener('click',function(){var o=document.body.classList.toggle('menu-open');b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Close menu':'Open menu')});
+  document.getElementById('mnav').addEventListener('click',function(e){if(e.target.closest('a'))closeMenu()});
+  document.querySelectorAll('.nav .panel a').forEach(function(a){a.addEventListener('click',function(){document.activeElement.blur()})});
+})();
+function closeMenu(){document.body.classList.remove('menu-open');var b=document.getElementById('burger');b.setAttribute('aria-expanded','false');b.setAttribute('aria-label','Open menu')}
+
+/* ---- quote wizard ---- */
+var WZ=[
+  {k:'what',q:'What needs cleaning?',h:'Pick everything that has white buildup.',multi:1,o:[
+    ['Pool tile waterline','hero'],['Glass tile','wall'],['Rock or waterfall','rock'],['Spa or spillway','spa'],
+    ['Stone or coping','stacked'],['Fountain or water feature','fountain'],['Decorative tile','talavera'],['Not sure','']]},
+  {k:'how',q:'How bad is the buildup?',h:'Your best guess is fine.',o:[
+    ['Light haze','Faint white film'],['A clear white line','Brushing doesn\'t take it off'],['Thick and crusty','Years of hard scale'],['Not sure','We\'ll tell you from photos']]},
+  {k:'where',q:'Where is the pool?',h:'We work all over South Texas.',o:[
+    ['Corpus Christi area',''],['Portland, Ingleside, Aransas Pass',''],['Rockport or Port Aransas',''],['Kingsville',''],
+    ['Victoria, Goliad, Yorktown',''],['Laredo',''],['McAllen or Brownsville',''],['Somewhere else','']]},
+  {k:'when',q:'When do you want it done?',h:'',o:[['As soon as possible','We\'ll get you on the schedule'],['In the next few weeks',''],['Before a party or event','Tell us the date in the notes'],['Just want a price','No pressure']],one:1},
+  {k:'photos',q:'Send a few photos',h:'Photos get you the most accurate estimate. Close-ups of the buildup work best.',photos:1},
+  {k:'contact',q:'Where should we send your estimate?',h:'We never share your info.',contact:1}
+];
+function wizHTML(){
+  var h='<div class="wiz" id="wiz"><div class="wiz-top"><button type="button" class="wiz-back" id="wizBack">&larr; Back</button><b id="wizCount">Step 1 of '+WZ.length+'</b></div><div class="wiz-bar"><i id="wizBar"></i></div>';
+  WZ.forEach(function(st,i){
+    h+='<div class="wiz-step" data-i="'+i+'"><h3>'+st.q+'</h3>'+(st.h?'<p class="hint">'+st.h+'</p>':'');
+    if(st.o){h+='<div class="opts'+(st.one?' one':'')+'">'+st.o.map(function(o){
+      var img=st.k==='what'?(o[1]?'<img src="photos/'+o[1]+'-before.jpg" alt="">':'<i class="qm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></i>'):'';
+      var sub=st.k!=='what'&&o[1]?'<small>'+o[1]+'</small>':'';
+      return '<button type="button" class="opt" data-v="'+o[0]+'">'+img+'<span>'+o[0]+sub+'</span></button>'}).join('')+'</div>';
+      if(st.multi)h+='<div class="wiz-next"><button type="button" class="btn btn-sky" data-next disabled>Next</button></div>';
+      if(st.k==='where')h+='<label style="margin-top:12px">Town or ZIP (optional)<input name="town" autocomplete="postal-code"></label>';
+    }
+    if(st.photos)h+='<label class="drop"><input type="file" accept="image/*" multiple id="wizFiles"><b>Tap to add photos</b>From your phone or computer</label><div class="files" id="wizFileList"></div><div class="wiz-next"><button type="button" class="btn btn-sky" data-next>Next</button><button type="button" class="skip" data-next>I\'ll text them instead</button></div>';
+    if(st.contact)h+='<label>Name<input required autocomplete="name" id="wizName"></label><label>Phone<input required type="tel" autocomplete="tel" id="wizPhone"></label><div class="seg"><button type="button" class="opt sel" data-pref="Text">Text me</button><button type="button" class="opt" data-pref="Call">Call me</button></div><label>Anything else? (optional)<textarea rows="2"></textarea></label><div class="wiz-next"><button type="button" class="btn btn-sky" id="wizSend" disabled>Get my free estimate</button><p class="fine">Your info is never shared. <a href="#/privacy">Privacy Policy</a></p></div>';
+    h+='</div>';
+  });
+  h+='<div class="wiz-step" data-i="done"><div class="done"><div class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></div><h3>Got it!</h3><p>We\'ll look at your photos and get back to you with your free estimate. Need us sooner? Call <a href="'+TEL+'">'+PHONE+'</a>.</p></div></div></div>';
+  return h;
+}
+function initWiz(){
+  var w=document.getElementById('wiz');if(!w)return;var cur=0,hist=[];
+  function show(i){w.querySelectorAll('.wiz-step').forEach(function(s){s.classList.toggle('on',s.dataset.i==String(i))});
+    var n=i==='done'?WZ.length:i;document.getElementById('wizBar').style.width=(n/WZ.length*100)+'%';
+    document.getElementById('wizCount').textContent=i==='done'?'All set':'Step '+(i+1)+' of '+WZ.length;
+    document.getElementById('wizBack').classList.toggle('on',i!=='done'&&i>0);cur=i}
+  function next(){hist.push(cur);show(cur+1)}
+  w.addEventListener('click',function(e){
+    var o=e.target.closest('.opt');
+    if(o&&o.dataset.pref!==undefined){o.parentNode.querySelectorAll('.opt').forEach(function(x){x.classList.toggle('sel',x===o)});return}
+    if(o){var st=WZ[cur];
+      if(st.multi){o.classList.toggle('sel');w.querySelector('.wiz-step.on [data-next]').disabled=!w.querySelector('.wiz-step.on .opt.sel')}
+      else{o.parentNode.querySelectorAll('.opt').forEach(function(x){x.classList.toggle('sel',x===o)});if(st.k!=='where')setTimeout(next,220);else setTimeout(next,260)}
+      return}
+    if(e.target.closest('[data-next]')){next();return}
+    if(e.target.closest('#wizBack')&&hist.length){show(hist.pop());return}
+    if(e.target.closest('#wizSend')){demoSubmit(e);show('done')}
+  });
+  var nm=document.getElementById('wizName'),ph=document.getElementById('wizPhone'),sd=document.getElementById('wizSend');
+  function chk(){sd.disabled=!(nm.value.trim()&&ph.value.replace(/\D/g,'').length>=10)}
+  nm.addEventListener('input',chk);ph.addEventListener('input',chk);
+  document.getElementById('wizFiles').addEventListener('change',function(){var n=this.files.length;document.getElementById('wizFileList').textContent=n?n+' photo'+(n>1?'s':'')+' added':''});
+  show(0);
+}
+/* ---- home content ---- */
+function formHTML(town){return '<form class="est" onsubmit="return demoSubmit(event)"><h3>Get your free estimate</h3><label>Name<input required autocomplete="name"></label><label>Phone<input required type="tel" autocomplete="tel"></label><label>Pool address<input autocomplete="street-address"'+(town?' value="'+town+', TX"':'')+'></label><label>Photos of your tile<input type="file" accept="image/*" multiple></label><label>Anything else we should know?<textarea rows="3"></textarea></label><button class="btn btn-sky" type="submit">Send my photos</button><p class="fine">Your info is never shared. <a href="#/privacy">Privacy Policy</a></p></form>'}
+function rvHTML(r){return '<article class="rv"><div class="st">★★★★★</div><p>'+esc(r.t)+'</p><div><b>'+esc(r.n)+'</b><small>'+esc(r.d)+' on Google</small></div></article>'}
+function postCard(p){return '<a class="post" href="#/blog/'+p.s+'"><img loading="lazy" src="photos/'+p.img+'" alt=""><div><span class="cat">'+p.c+'</span><h3>'+p.n+'</h3><p>'+p.x+'</p><span class="rd">Read article &rarr;</span></div></a>'}
+(function(){
+  document.getElementById('sliders').innerHTML=['rock','spa','wall'].map(function(id){var p=PAIRS[id];return '<article class="case">'+baHTML(id)+'<h3>'+p.n+'</h3><p>'+p.d+'</p></article>'}).join('');
+  document.getElementById('flips').innerHTML=['talavera','stacked','fountain','grout'].map(function(id){var p=PAIRS[id];return '<article class="case">'+flipHTML(id)+'<h3>'+p.n+'</h3><p>'+p.d+'</p></article>'}).join('');
+  document.querySelector('#flips').insertAdjacentHTML('beforebegin','<div class="sub-h" style="margin-top:clamp(44px,5vw,64px)">Tap to flip</div>');
+  document.getElementById('tiles').innerHTML=SERVICES.map(function(x){return '<a class="tile" href="#/service/'+x.s+'"><img loading="lazy" src="photos/'+x.p+'-after.jpg" alt=""><span>'+x.n+'<small>See the service &rarr;</small></span></a>'}).join('');
+  document.querySelector('.formslot').outerHTML=wizHTML();initWiz();
+  document.querySelector('.gsvg').outerHTML=G;
+  var h='';REVIEWS.forEach(function(r){h+=rvHTML(r)});document.getElementById('track').innerHTML=h+h;
+  document.getElementById('townchips').innerHTML=TOWNS.map(function(t){return '<li><a class="'+(t.hub?'hub':'')+'" href="#/area/'+t.s+'">'+t.n+'</a></li>'}).join('');
+  document.getElementById('posts').innerHTML=POSTS.map(postCard).join('');
+})();
+
+/* ---- sliders + flips ---- */
+function initMedia(root){
+  root.querySelectorAll('[data-ba]:not([data-on])').forEach(function(el){
+    el.setAttribute('data-on','1');var down=false;
+    function set(p){p=Math.max(0,Math.min(100,p));el.style.setProperty('--p',p+'%');el.setAttribute('aria-valuenow',Math.round(p));if(el.closest('.hero'))placeHint(p)}
+    function at(x){var r=el.getBoundingClientRect();set((x-r.left)/r.width*100);el.dataset.touched=1;el.classList.remove('hint');var d=document.getElementById('drag');if(d&&el.closest('.hero'))d.classList.add('gone')}
+    el._def=function(){if(el.dataset.touched)return;set(defaultP(el))};
+    el._def();
+    el.addEventListener('pointerdown',function(e){down=true;try{el.setPointerCapture(e.pointerId)}catch(_){}at(e.clientX)});
+    el.addEventListener('pointermove',function(e){if(down)at(e.clientX)});
+    ['pointerup','pointercancel'].forEach(function(n){el.addEventListener(n,function(){down=false})});
+    el.addEventListener('keydown',function(e){var v=+el.getAttribute('aria-valuenow');if(e.key==='ArrowLeft'){set(v-4);el.dataset.touched=1;e.preventDefault()}if(e.key==='ArrowRight'){set(v+4);el.dataset.touched=1;e.preventDefault()}});
+  });
+  root.querySelectorAll('[data-flip]:not([data-on])').forEach(function(el){
+    el.setAttribute('data-on','1');
+    function t(){var o=el.classList.toggle('on');el.setAttribute('aria-pressed',o)}
+    el.addEventListener('click',t);
+    el.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t()}});
+  });
+}
+/* start at 80% so you mostly see the BEFORE; on phones line the handle up under the middle of the AFTER label */
+var QS=new URLSearchParams(location.search),HP=+(QS.get('hp')||80),GY=QS.get('gy');
+function defaultP(el){
+  if(window.innerWidth<=640){var t=el.querySelector('.tag.a'),r=el.getBoundingClientRect(),q=t.getBoundingClientRect();if(r.width)return((q.left+q.width/2)-r.left)/r.width*100}
+  return el.closest('.hero')?HP:80;
+}
+function placeHint(p){var d=document.getElementById('drag');if(d)d.style.left=p+'%'}
+window.addEventListener('resize',function(){document.querySelectorAll('[data-ba]').forEach(function(el){el._def&&el._def()})});
+
+/* ---- homepage only: menu links scroll to the matching homepage section (the real pages are what the build pays for) ---- */
+var sub=document.getElementById('sub'),home=document.getElementById('home');
+var MAP={services:'services',service:'services',areas:'areas',area:'areas',reviews:'reviews','our-work':'results',blog:'blog',contact:'estimate',about:'reviews',faq:'estimate'};
+function route(){
+  closeMenu();
+  var h=location.hash||'';
+  if(h.indexOf('#/')!==0)return;
+  var k=h.slice(2).split('/')[0],el=MAP[k]?document.getElementById(MAP[k]):null;
+  history.replaceState(null,'',location.pathname+location.search);
+  if(el)el.scrollIntoView();else if(k==='')window.scrollTo(0,0);
+  onScroll();
+}
+var bar=document.getElementById('bar');
+function demoSubmit(e){e.preventDefault();if(e.target.closest&&e.target.closest('#wiz'))return false;alert("Thanks for checking out this preview! The form isn't live yet. On your real site it sends straight to your phone and inbox.");return false}
+initMedia(document);
+var siteH=document.querySelector('.site');function onScroll(){siteH.classList.toggle('shrink',window.scrollY>30||!sub.hidden)}window.addEventListener('scroll',onScroll,{passive:true});
+(function(){
+  var heroEl=document.querySelector('.hero');
+  new IntersectionObserver(function(x){if(bar.dataset.page!=='sub')bar.classList.toggle('on',!x[0].isIntersecting)}).observe(heroEl);
+  var hb=document.querySelector('.hero .ba');if(window.innerWidth>640)hb.style.setProperty('--p0',HP+'%');if(GY&&window.innerWidth>640){hb.querySelector('.grip').style.top=GY+'%';document.getElementById('drag').style.top='calc('+GY+'% + 40px)'}
+  placeHint(defaultP(hb));
+  window.addEventListener('hashchange',route);
+  /* home-section anchors like #estimate work from any page */
+  document.addEventListener('click',function(e){var a=e.target.closest('a[href^="#"]');if(!a)return;var hh=a.getAttribute('href');if(hh.indexOf('#/')===0)return;if(!home.hidden)return;e.preventDefault();history.pushState(null,'','#/');route();var el=document.querySelector(hh);if(el)el.scrollIntoView()});
+  route();
+})();
+</script>
+</body>
+</html>
